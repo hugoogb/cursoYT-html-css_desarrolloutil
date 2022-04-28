@@ -1,0 +1,15 @@
+.encabezados {
+	margin: 20px;
+
+	color: blueviolet;
+}
+
+p {
+	color: red;
+}
+
+#parrafo1 {
+	font-size: 15px;
+	font-weight: bold;
+	color: green;
+}

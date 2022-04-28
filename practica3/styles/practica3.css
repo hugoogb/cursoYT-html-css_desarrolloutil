@@ -1,0 +1,59 @@
+/* Estilos de los Encabezados */
+.encabezados {
+	width: 250px;
+	display: inline-block;
+	margin-bottom: 20px;
+	color: blueviolet;
+	background-color: bisque;
+	padding: 5px 10px 15px 20px;
+	border: 5px dashed black;
+}
+
+.encabezados div {
+	width: 10rem;
+}
+
+.parrafos {
+	width: 250px;
+	display: inline-block;
+	padding: 5px 10px 15px 20px;
+	border: 5px dashed blue;
+	/*
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	*/
+
+	background-color: brown;
+}
+
+/*
+.encabezados > h3 {
+	color: black;
+	font-size: 25px;
+}
+*/
+
+.encabezados h3 ~ h3 {
+	color: black;
+	font-size: 25px;
+}
+
+p {
+	color: red;
+}
+
+/* Selector de identificador */
+#parrafo1 {
+	font-size: 15px;
+	font-weight: bold;
+	color: green;
+}
+
+.logo {
+	height: 50px;
+}
+
+nav {
+	display: inline;
+}
