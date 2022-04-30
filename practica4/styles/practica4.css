@@ -1,0 +1,52 @@
+section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 35rem;
+	align-content: center;
+}
+
+/* Estilos de los Encabezados */
+.encabezados {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 800px;
+	margin-bottom: 20px;
+	color: blueviolet;
+	background-color: rgb(214, 214, 214);
+	padding: 10px;
+}
+
+.encabezados div {
+	flex-grow: 1;
+}
+
+#grande {
+	flex-grow: 3;
+}
+
+/* 
+.encabezados div {
+	width: 10rem;
+} */
+
+/*
+.encabezados > h3 {
+	color: black;
+	font-size: 25px;
+}
+*/
+
+.encabezados h3 ~ h3 {
+	color: black;
+	font-size: 25px;
+}
+
+.logo {
+	height: 50px;
+}
+
+nav {
+	display: inline;
+}
