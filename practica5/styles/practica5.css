@@ -1,0 +1,79 @@
+html {
+	font-family: "Montserrat", sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+
+	height: 4rem;
+	padding: 0 5rem;
+
+	background-color: moccasin;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	height: 3rem;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	font-size: 0.9rem;
+	font-weight: 600;
+
+	display: flex;
+	align-items: center;
+
+	padding: 0 1rem;
+	height: 100%;
+
+	color: #474747;
+}
+
+#ultimos {
+	font-weight: 700;
+
+	color: black;
+}
+
+.opciones {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 7rem;
+}
+
+#search {
+	width: 1.75rem;
+}
+
+#user {
+	width: 2rem;
+}
+
+.user-menu {
+	position: absolute;
+	right: -0.5rem;
+	bottom: -5.35rem;
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: lightblue;
+}
+
+.user-menu a {
+	padding: 0.75rem 2rem;
+}
