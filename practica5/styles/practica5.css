@@ -57,23 +57,39 @@ nav a {
 	width: 7rem;
 }
 
-#search {
+.opciones img:first-child {
 	width: 1.75rem;
+	height: 1.75rem;
 }
 
-#user {
+.opciones img {
 	width: 2rem;
 }
 
+#user {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#user:hover .user-menu {
+	max-height: 6rem;
+}
+
 .user-menu {
+	max-height: 0;
 	position: absolute;
 	right: -0.5rem;
-	bottom: -5.35rem;
+	top: 4rem;
 
+	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 
 	background-color: lightblue;
+
+	transition: max-height 0.5s ease-in-out 0.1s;
 }
 
 .user-menu a {
@@ -92,7 +108,7 @@ nav a {
 
 	padding: 3rem 0;
 
-	background-image: url("/img/BackgroundBanner.png");
+	background-image: url("../img/BackgroundBanner.png");
 }
 
 .banner {
@@ -210,3 +226,19 @@ li {
 	padding: 0.2rem;
 	padding-left: 1rem;
 }
+
+/* li:empty {
+	padding: 2rem;
+} */
+
+/* li:first-child {
+	color: red;
+} */
+
+/* li:nth-of-type(2n) {
+	color: red;
+} */
+
+/* li:only-child {
+	color: red;
+} */

@@ -148,6 +148,18 @@ form {
 	border-radius: 5px;
 }
 
+/* #telefono:focus {
+	background-color: #605ab4; 
+} */
+
+/* .field::before {
+	content: "-";
+} */
+
+.field::after {
+	content: "-";
+}
+
 .textbox {
 	display: flex;
 	flex-direction: column;
